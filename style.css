@@ -24,3 +24,21 @@ nav ul {
     color: inherit;
   }
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+
+  ul {
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+
+    li {
+      line-height: 2rem;
+    }
+  }
+}
